@@ -48,7 +48,7 @@ for i in range(numeroDeBacterias):                                            #p
 
 for _ in range(iteraciones):                                                  #numero de iteraciones  
     for bacteria in poblacion:
-        bacteria.tumboNado(tumbo)
+        bacteria.tumboNadoDinamico(tumbo, poblacion)
         #bacteria.tumboNado(nado)
         bacteria.autoEvalua()  
         #print("blosumScore: ",bacteria.blosumScore)
